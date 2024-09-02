@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776500448600",
+    "firebase_url": "https://eurotech-docs-77f50-default-rtdb.firebaseio.com",
+    "project_id": "eurotech-docs-77f50",
+    "storage_bucket": "eurotech-docs-77f50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776500448600:android:4105f93a4f0346f25ea92d",
+        "android_client_info": {
+          "package_name": "com.example.euro_docs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776500448600-5sraf7ng2f0116uph81bi2laafi3hrnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW-iLVn8ueyMMHGhublcgo6s9zyppqVl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776500448600-5sraf7ng2f0116uph81bi2laafi3hrnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
