@@ -38,7 +38,7 @@ class _SignupScreenState extends State<SignupScreen> {
           // Save user information to Firestore with the username from the controller
           await _saveUserInfoToFirestore(userCredential.user!, _usernameController.text);
 
-          Navigator.push(context, MaterialPageRoute(builder: (context) => const HomeScreen()));
+          Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
         } on FirebaseAuthException catch (e) {
           if (e.code == 'email-already-in-use') {
             _showSnackbar(context, 'The email is already in use.');
